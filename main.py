@@ -9,7 +9,7 @@ print(f"\033[34\033[43m{message}\033[0m")
 cipher_one=message
 message_one=message.replace("т", "с")
 message_one=message_one.replace("и", "о")
-print("Шифр 1:",cipher_one)
+print("Шифр 1:",message_one)
 cipher_two=message[::-1]
 print("Шифр 2:",cipher_two)
 cipher_three=message[::2]+message[1::2]
